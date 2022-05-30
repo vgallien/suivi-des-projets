@@ -1,0 +1,25 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  position: relative;
+  font-weight: normal;
+}
+
+html {
+  --color-primary: #697a21;
+  --color-secondary: #b8b42d;
+  --color-dark: #3e363f;
+  --color-white: #fffce8;
+  --color-highlight: #dd403a;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+  max-width: 1024px;
+  width: 100%;
+}
