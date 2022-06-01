@@ -23,3 +23,12 @@ html {
   max-width: 1024px;
   width: 100%;
 }
+
+.form label {
+  display: block;
+  margin-bottom: 0.2rem;
+}
+
+.form input {
+  padding: 0.26rem;
+}
